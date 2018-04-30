@@ -1,5 +1,12 @@
 /* Top Portion */
 
+.jumbotron {
+    background-image: url("../imgs/bg1.jpg");
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+}
+
 .social-icons {
     height: 40px;
     background-color: #1cbac8;
@@ -25,25 +32,28 @@
 
   .social-padding {
     padding: 5px;
-   
   }
 
   .navigation {
-    /* background-color:rgba(255,255,255,0.3); */
     position: sticky;
     top: 0px;
     
   }
 
-  .city-background {
-      width: 100%;
-      height: 400px;
-      
-  }
-
   .quote {
     font-size: 1rem;
     text-align: center;
+    position: absolute;
+    background-color: white !important; 
+    width: 50%; 
+    padding: 25px;
+    padding-bottom: 25px;
+    top: 30%;
+    left: 25%;
+    margin: auto;
+    opacity: 0.8;
+    display: block;
+    overflow: auto;
   }
 
   .image-quote {
@@ -51,18 +61,14 @@
     z-index: -1;
   }
 
-  .quote-opacity {
-    position: absolute;
-    background-color: white !important; 
-    width: 50%;
-    height: 30%;
-    padding: 20px;
-    top: 30%;
-    left: 25%;
-   
-    margin: auto;
-    opacity: 0.8;
-  }
+  /* the line under pricing */
+  .wpm-border {
+    width: 90px;
+    height: 2px;
+    background: #1CBAC8;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
 
   /* body */
 
@@ -78,7 +84,6 @@
 
 span {
     margin-left: 35px;
-    
 }
 
 .coin-icon {
